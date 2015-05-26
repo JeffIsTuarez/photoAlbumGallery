@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Esteban';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Esteban'), url(http://themes.googleusercontent.com/static/fonts/esteban/v2/EKgJCyB1J9KPP5TdWd2GGw.woff) format('woff');
+}
+body
+	{
+		margin:10px 125px 20px;
+		position:relative;
+		background-color:#CBD1E2;
+		color:#3A5261;			
+		font-family: Esteban;
+		font-size:16px;
+	}
+html
+	{
+		background-color:#3A5261;
+	}
+#title
+	{
+		color:#333399;
+		text-align:center;
+		font-family:Esteban;
+		font-size:35px;
+	}
+li.navigation-element
+	{
+		position:relative;
+		display:inline;
+		padding: 0px 20px 0px;
+		font-size:20px;
+		font-family:Esteban;
+		background-color:#00000;
+		list-style:none;
+	}
+a:link,:visited
+	{
+		color:#057D9F;
+		text-decoration:none;
+	}
+textarea
+	{
+		height:100px;
+		width:300px;
+		
+	}
+input,textarea
+	{
+		background-color:#057D9F;
+		color:#000000;
+		font-family: Esteban;
+		border-color:#000000;
+	}
+select
+	{
+		background-color:#057D9F;
+	}
+table
+	{
+		margin: 0px 50px 0px;
+	}
+th.rowtitle
+	{
+		color:#FF0700;
+		padding: 0px 25px 0px;
+	}
+p
+	{
+		padding:0px 50px 0px;
+	}
+form, h3, h1
+	{
+		padding: 0px 50px 0px;
+	}
+h3.listTitle
+	{
+		color:#00C12B;
+	}
+h1.pageTitle
+	{
+		color:#071C71;
+	}
+p.error
+	{
+		color:#FF0700;
+	}
+td,tr
+	{
+		text-align:center;
+	}
+img
+	{
+		max-height:250px;
+		max-width:250px;
+	}
